@@ -364,3 +364,38 @@ limit 5;                                      -- ORDER BY price DESC sorts price
 SELECT * FROM products
 ORDER by price DESC
 LIMIT 10;
+
+
+Pagination in MySQL
+
+Pagination: Divides data into smaller pages.
+
+COUNT(*) — Counts total rows.
+
+ORDER BY — Sorts data.
+
+LIMIT — Controls the number of rows returned.
+
+OFFSET — Skips a specified number of rows.
+
+Example: 10 products per page
+
+Page 1
+
+SELECT * FROM products
+ORDER BY product_id
+LIMIT 10 OFFSET 0;
+
+Page 2
+
+SELECT * FROM products
+ORDER BY product_id
+LIMIT 10 OFFSET 10;
+
+Page 3
+
+SELECT * FROM products
+ORDER BY product_id
+LIMIT 10 OFFSET 20;
+
+Formula: OFFSET = (Page Number - 1) × Items Per Page
