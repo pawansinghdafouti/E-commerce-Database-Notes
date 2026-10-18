@@ -1,0 +1,17 @@
+SQL Commands: DDL, DML, DQL
+
+Category	Full Form	Keywords	Purpose
+
+DDL	Data Definition Language	CREATE, ALTER, DROP, TRUNCATE, RENAME	Defines or changes table structure
+
+DML	Data Manipulation Language	INSERT, UPDATE, DELETE	Modifies table data
+
+DQL	Data Query Language	SELECT, FROM, WHERE, ORDER BY, GROUP BY, HAVING, LIMIT, DISTINCT, IN, LIKE	Retrieves and filters data
+
+
+Easy trick to remember:
+- DDL → Structure
+- DML → Modify data
+- DQL → Retrieve data
+
+Note: IN, LIKE, WHERE, and ORDER BY are SQL operators or clauses used within queries, rather than standalone SQL commands.
